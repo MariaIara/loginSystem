@@ -25,7 +25,9 @@
             $_SESSION['id'] = $usuario['id'];
             $_SESSION['nome'] = $usuario['nome'];
 
-            echo "LOGIN FEITO!!!";
+            header("Location: ../ok.php");
+            exit();
+            // echo "LOGIN FEITO!!!";
 
         } else {
             echo "Falha ao logar! E-mail ou senha incorretos";
