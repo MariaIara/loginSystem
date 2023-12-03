@@ -85,7 +85,8 @@
 
         .h{
             display: flex;
-            padding-left: 5px;      
+            padding-left: 5px;  
+            padding-bottom: 10px;    
         }
 
         h3{
@@ -93,7 +94,7 @@
         }
 
         .new-user{
-            background-color: #4f8fcf;
+            background-color: #b0b9c1;
             border: none;
             padding: 8px;
             width: 100%;
@@ -101,13 +102,18 @@
             color: white;
         }
 
-        /* .new-user:hover{
-            background-color: #2e5ca0;
+        .new-user:hover{
+            background-color: #DB0995;
             cursor: pointer;
-        } */
+        }
 
         .old{
-            padding-top: 12px;
+            background-color: #4f8fcf;
+            border: none;
+            padding: 8px;
+            width: 100%;
+            border-radius: 15px;
+            color: white;
         }
         
     </style>
@@ -115,8 +121,8 @@
 <body>
     <div class="login">
         <div class="h">
-            <h3 class="old">
-                LOGIN
+            <h3>
+                <button class="old">LOGIN</button>
             </h3>
             <h3>
                 <a href="form-cadastro.php">

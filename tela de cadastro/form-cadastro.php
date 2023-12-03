@@ -53,7 +53,7 @@
         }
 
         .old{
-            background-color: #4f8fcf;
+            background-color: #b0b9c1;
             border: none;
             padding: 10px;
             border-radius: 15px;
@@ -61,22 +61,22 @@
         }
 
         .old:hover{
-            background-color: #2e5ca0;
+            background-color: #DB0995;
             cursor: pointer;
         }
 
         .new-user{
-            background-color: #bfcbd7;
+            background-color: #4f8fcf;
             border: none;
             padding: 10px;
             border-radius: 15px;
             margin-bottom: 10px;
         }
 
-        .new-user:hover{
-            background-color: #b0b9c1;
+        /* .new-user:hover{
+            background-color: #2e5ca0;
             cursor: pointer;
-        }
+        } */
 
         input{
             padding: 15px;
