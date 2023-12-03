@@ -15,6 +15,8 @@
         $senha = $_POST['senha'];
 
         $result = mysqli_query($connect, "INSERT INTO usuarios(nome, email, senha) VALUES ('$nome', '$email', '$senha')");
+        header("Location: ./form-login.php");
+        exit();
     }
 ?>
 

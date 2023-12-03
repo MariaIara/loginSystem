@@ -25,7 +25,7 @@
             $_SESSION['id'] = $usuario['id'];
             $_SESSION['nome'] = $usuario['nome'];
 
-            header("Location: ../ok.php");
+            header("Location: ./ok.php");
             exit();
             // echo "LOGIN FEITO!!!";
 
